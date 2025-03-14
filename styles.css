@@ -1,0 +1,37 @@
+
+nav {
+    background-color: 	#FFF8DC;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+body {
+    background-color: #FFEBCD;
+    font-family: Georgia, verdana;
+    margin: 0;
+    padding: 20px;
+}
+
+/* below is for paragraph space formatting */
+p {
+    margin-bottom: 50px;
+}
+
+/* below is for images radius (how far away they are from each other) */
+img {
+    border-radius: 25px;
+}
+
+/* below is for images container */
+.image-container {
+    display: flex;
+    gap: 10px; 
+}
+
+/* below is for images formatting,  we don't want photos to be too big on the page */
+.image-crop {
+    width: 400px;
+    height: 600px; 
+    object-fit: cover;
+}
